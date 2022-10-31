@@ -1,18 +1,18 @@
 name: todolist-goof Docker image build and test
 
-on:
-  push:
-    branches:
-      - 'main'
-    paths:
-      - 'todolist-goof/**'
-      - '.github/workflows/todolist-goof-docker-image.yaml'
-  pull_request:
-    branches:
-      - 'main'
-    paths:
-      - 'todolist-goof/**'
-      - '.github/workflows/todolist-goof-docker-image.yaml'
+#on:
+ # push:
+  #  branches:
+   #   - 'main'
+    #paths:
+    #  - 'todolist-goof/**'
+     # - '.github/workflows/todolist-goof-docker-image.yaml'
+ # pull_request:
+  #  branches:
+   #   - 'main'
+    #paths:
+     # - 'todolist-goof/**'
+      #- '.github/workflows/todolist-goof-docker-image.yaml'
 
 jobs:
   build-todolist-image:
