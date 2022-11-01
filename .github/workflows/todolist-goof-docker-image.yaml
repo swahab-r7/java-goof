@@ -5,6 +5,7 @@ name: todolist-goof Docker image build and test
   #  branches:
    #   - 'main'
     #paths:
+
     #  - 'todolist-goof/**'
      # - '.github/workflows/todolist-goof-docker-image.yaml'
  # pull_request:
@@ -14,7 +15,8 @@ name: todolist-goof Docker image build and test
      # - 'todolist-goof/**'
       #- '.github/workflows/todolist-goof-docker-image.yaml'
 
-jobs:
+
+#jobs:
   build-todolist-image:
     runs-on: ubuntu-latest
     defaults:
